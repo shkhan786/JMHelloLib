@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FF728F8329FF1A7360A4C9DCA510C2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4FFB20A26E12595D2813D16262F2C921 /* Pods-JMHelloLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F95EB4FB3E130BAE7503CD13EB0A21 /* Pods-JMHelloLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58B4E58D9BD7B81B1F393EC84BB9C806 /* JMHelloLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4694C021EAC7DC8EC9E3C3B00027748 /* JMHelloLib-dummy.m */; };
+		5D2B923AAD2FA05AAF5AF6CF0BB394C9 /* Pods-JMHelloLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 833241B5D3CCA39A06102271E22A667C /* Pods-JMHelloLib_Tests-dummy.m */; };
+		8186CE906369D453697D5819064BD335 /* Pods-JMHelloLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0F483B44E416BF54020B388322B348 /* Pods-JMHelloLib_Example-dummy.m */; };
+		8F81547D08571AB3C3C2CA647F9771E7 /* Pods-JMHelloLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C8DB12648755EE50B1CDAC709EE353 /* Pods-JMHelloLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B553C8C993915132D878DE1CDE760B0E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E048D74BB21B83B461ACAEE969EED04 /* ReplaceMe.swift */; };
+		BB7B08F45BAEC727285D1ADEB8408218 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CF0211B2A97BEB57827AB3E29EE21649 /* JMHelloLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ECA6F76793CFE3FD3DADB3EA53468D7 /* JMHelloLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D40370E063021E07634807CBD32C1EE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92DEE7AE4228704C8468009821F1FE16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81A376734039BF7E1CF1DB45383999AC;
+			remoteInfo = JMHelloLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E784D0408562A5AFBE2B3D18921C58E /* Pods-JMHelloLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JMHelloLib_Example.modulemap"; sourceTree = "<group>"; };
+		13C28841F9F37041F9B01B857E200797 /* Pods-JMHelloLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMHelloLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C405007A61CE5FE6C28AF53C9D11185 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBD350B8B15273D6E5CABCCB64DBC44 /* Pods-JMHelloLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JMHelloLib_Tests.modulemap"; sourceTree = "<group>"; };
+		2025227F5867B709968C69B8A7998DA3 /* JMHelloLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JMHelloLib.framework; path = JMHelloLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21AB24EA372E2C56EBC3CD93E4658CCC /* Pods-JMHelloLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMHelloLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3E048D74BB21B83B461ACAEE969EED04 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JMHelloLib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5A0F483B44E416BF54020B388322B348 /* Pods-JMHelloLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMHelloLib_Example-dummy.m"; sourceTree = "<group>"; };
+		5A1FC7E7487E418DCB2A6894310C1D5E /* Pods_JMHelloLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMHelloLib_Example.framework; path = "Pods-JMHelloLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61491084B2510063789E4E344E7A8AB0 /* JMHelloLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMHelloLib.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68C8DB12648755EE50B1CDAC709EE353 /* Pods-JMHelloLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMHelloLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		75F95EB4FB3E130BAE7503CD13EB0A21 /* Pods-JMHelloLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMHelloLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		833241B5D3CCA39A06102271E22A667C /* Pods-JMHelloLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMHelloLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		8ECA6F76793CFE3FD3DADB3EA53468D7 /* JMHelloLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMHelloLib-umbrella.h"; sourceTree = "<group>"; };
+		8F94CB25BCC11895F415441A36D51E70 /* Pods-JMHelloLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMHelloLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A234E9269AC6E0A66464E34C8724F943 /* Pods_JMHelloLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMHelloLib_Tests.framework; path = "Pods-JMHelloLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92BC022D02D8EE0A562C52BFF6EB497 /* Pods-JMHelloLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMHelloLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		ACB4E3DB28714ED8CB67C9C3902FAF67 /* Pods-JMHelloLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMHelloLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AF26ADF9132EC4E1A935E4C12D696FD8 /* Pods-JMHelloLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMHelloLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4694C021EAC7DC8EC9E3C3B00027748 /* JMHelloLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMHelloLib-dummy.m"; sourceTree = "<group>"; };
+		B59A93CA7D7B693A2A56658D2C8A4CB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4CB642D61D8ACE50CF3B79EBC32846 /* Pods-JMHelloLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMHelloLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF774729513F7099CC96EAAD10DA8F39 /* Pods-JMHelloLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMHelloLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C111F547D8CCB4AC99D44D7FBE96A21A /* JMHelloLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JMHelloLib.modulemap; sourceTree = "<group>"; };
+		C5AF8BF0E8557878A1DF9FE657A20E21 /* Pods-JMHelloLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMHelloLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBC0193316519DDDB6746FFF96FA7B54 /* JMHelloLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMHelloLib-prefix.pch"; sourceTree = "<group>"; };
+		CC9F23615BA390A6A30AF7FA2EC24F7A /* Pods-JMHelloLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMHelloLib_Example-resources.sh"; sourceTree = "<group>"; };
+		D37D65A5F19F53B3112C979AC37AE6E1 /* Pods-JMHelloLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMHelloLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBD0EFB7F3B56040F299C3AA63CEEB23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED1FE0000638FD606A34ADF1A32B1168 /* Pods-JMHelloLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMHelloLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B3B6D1B96581B0BD0600CFE80A57BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40370E063021E07634807CBD32C1EE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		778EAEA1830A324E2314AD37ED5F95EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7B08F45BAEC727285D1ADEB8408218 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847A97DB01EE4CB5BA62C8185A8006D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF728F8329FF1A7360A4C9DCA510C2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1232610C3E7CFA15B0AB7703D6880036 /* JMHelloLib */ = {
+			isa = PBXGroup;
+			children = (
+				3E048D74BB21B83B461ACAEE969EED04 /* ReplaceMe.swift */,
+				A9F4D64C73C1531A534C5C4CCDEB639E /* Support Files */,
+			);
+			name = JMHelloLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		29A8DAF29DD9869B84BE3BDDD9F55EC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2025227F5867B709968C69B8A7998DA3 /* JMHelloLib.framework */,
+				5A1FC7E7487E418DCB2A6894310C1D5E /* Pods_JMHelloLib_Example.framework */,
+				A234E9269AC6E0A66464E34C8724F943 /* Pods_JMHelloLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BEB37F671D42754D71BA237051DB74A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1232610C3E7CFA15B0AB7703D6880036 /* JMHelloLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		603A99D8374D356BD797DF1FB7979FC1 /* Pods-JMHelloLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DBD0EFB7F3B56040F299C3AA63CEEB23 /* Info.plist */,
+				0E784D0408562A5AFBE2B3D18921C58E /* Pods-JMHelloLib_Example.modulemap */,
+				D37D65A5F19F53B3112C979AC37AE6E1 /* Pods-JMHelloLib_Example-acknowledgements.markdown */,
+				BA4CB642D61D8ACE50CF3B79EBC32846 /* Pods-JMHelloLib_Example-acknowledgements.plist */,
+				5A0F483B44E416BF54020B388322B348 /* Pods-JMHelloLib_Example-dummy.m */,
+				21AB24EA372E2C56EBC3CD93E4658CCC /* Pods-JMHelloLib_Example-frameworks.sh */,
+				CC9F23615BA390A6A30AF7FA2EC24F7A /* Pods-JMHelloLib_Example-resources.sh */,
+				68C8DB12648755EE50B1CDAC709EE353 /* Pods-JMHelloLib_Example-umbrella.h */,
+				BF774729513F7099CC96EAAD10DA8F39 /* Pods-JMHelloLib_Example.debug.xcconfig */,
+				8F94CB25BCC11895F415441A36D51E70 /* Pods-JMHelloLib_Example.release.xcconfig */,
+			);
+			name = "Pods-JMHelloLib_Example";
+			path = "Target Support Files/Pods-JMHelloLib_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3BEB37F671D42754D71BA237051DB74A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				29A8DAF29DD9869B84BE3BDDD9F55EC7 /* Products */,
+				BE8FF02EFBE209C3369CD4FAF0F2D967 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85CC32D584291E4A8FB3D27AB377EA0B /* Pods-JMHelloLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B59A93CA7D7B693A2A56658D2C8A4CB1 /* Info.plist */,
+				1FBD350B8B15273D6E5CABCCB64DBC44 /* Pods-JMHelloLib_Tests.modulemap */,
+				AF26ADF9132EC4E1A935E4C12D696FD8 /* Pods-JMHelloLib_Tests-acknowledgements.markdown */,
+				13C28841F9F37041F9B01B857E200797 /* Pods-JMHelloLib_Tests-acknowledgements.plist */,
+				833241B5D3CCA39A06102271E22A667C /* Pods-JMHelloLib_Tests-dummy.m */,
+				ACB4E3DB28714ED8CB67C9C3902FAF67 /* Pods-JMHelloLib_Tests-frameworks.sh */,
+				A92BC022D02D8EE0A562C52BFF6EB497 /* Pods-JMHelloLib_Tests-resources.sh */,
+				75F95EB4FB3E130BAE7503CD13EB0A21 /* Pods-JMHelloLib_Tests-umbrella.h */,
+				C5AF8BF0E8557878A1DF9FE657A20E21 /* Pods-JMHelloLib_Tests.debug.xcconfig */,
+				ED1FE0000638FD606A34ADF1A32B1168 /* Pods-JMHelloLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-JMHelloLib_Tests";
+			path = "Target Support Files/Pods-JMHelloLib_Tests";
+			sourceTree = "<group>";
+		};
+		A9F4D64C73C1531A534C5C4CCDEB639E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C405007A61CE5FE6C28AF53C9D11185 /* Info.plist */,
+				C111F547D8CCB4AC99D44D7FBE96A21A /* JMHelloLib.modulemap */,
+				61491084B2510063789E4E344E7A8AB0 /* JMHelloLib.xcconfig */,
+				B4694C021EAC7DC8EC9E3C3B00027748 /* JMHelloLib-dummy.m */,
+				CBC0193316519DDDB6746FFF96FA7B54 /* JMHelloLib-prefix.pch */,
+				8ECA6F76793CFE3FD3DADB3EA53468D7 /* JMHelloLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JMHelloLib";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE8FF02EFBE209C3369CD4FAF0F2D967 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				603A99D8374D356BD797DF1FB7979FC1 /* Pods-JMHelloLib_Example */,
+				85CC32D584291E4A8FB3D27AB377EA0B /* Pods-JMHelloLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18A29E8ABCFDB4E3D3E2314F8A46C705 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFB20A26E12595D2813D16262F2C921 /* Pods-JMHelloLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35FF9B8F2DB952E675E1C004FD28ADFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F81547D08571AB3C3C2CA647F9771E7 /* Pods-JMHelloLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498AF1C7B93F7FB7C1415E097DC4C97D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0211B2A97BEB57827AB3E29EE21649 /* JMHelloLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56A317EC023A33F5ABF0BB80DBEA1685 /* Pods-JMHelloLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F663529D4F63D24DB1573784B8BF56 /* Build configuration list for PBXNativeTarget "Pods-JMHelloLib_Example" */;
+			buildPhases = (
+				CA127A80F896F6473C42E52CAE09A42E /* Sources */,
+				847A97DB01EE4CB5BA62C8185A8006D7 /* Frameworks */,
+				35FF9B8F2DB952E675E1C004FD28ADFD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C04D88B8331EED12115C34117ED3E5CF /* PBXTargetDependency */,
+			);
+			name = "Pods-JMHelloLib_Example";
+			productName = "Pods-JMHelloLib_Example";
+			productReference = 5A1FC7E7487E418DCB2A6894310C1D5E /* Pods_JMHelloLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81A376734039BF7E1CF1DB45383999AC /* JMHelloLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CF61D6DB45973D760C8A3FDE53AF51 /* Build configuration list for PBXNativeTarget "JMHelloLib" */;
+			buildPhases = (
+				3E5A37612764E97569E067FA54D75942 /* Sources */,
+				778EAEA1830A324E2314AD37ED5F95EB /* Frameworks */,
+				498AF1C7B93F7FB7C1415E097DC4C97D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMHelloLib;
+			productName = JMHelloLib;
+			productReference = 2025227F5867B709968C69B8A7998DA3 /* JMHelloLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD61BBFF9D9022EA03191EBD2F55B773 /* Pods-JMHelloLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9656F8B9A448392D4B40B30EDE30DBEA /* Build configuration list for PBXNativeTarget "Pods-JMHelloLib_Tests" */;
+			buildPhases = (
+				B75AF9AA9FA8964D2C806447279FD44C /* Sources */,
+				0B3B6D1B96581B0BD0600CFE80A57BE9 /* Frameworks */,
+				18A29E8ABCFDB4E3D3E2314F8A46C705 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JMHelloLib_Tests";
+			productName = "Pods-JMHelloLib_Tests";
+			productReference = A234E9269AC6E0A66464E34C8724F943 /* Pods_JMHelloLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 29A8DAF29DD9869B84BE3BDDD9F55EC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81A376734039BF7E1CF1DB45383999AC /* JMHelloLib */,
+				56A317EC023A33F5ABF0BB80DBEA1685 /* Pods-JMHelloLib_Example */,
+				CD61BBFF9D9022EA03191EBD2F55B773 /* Pods-JMHelloLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E5A37612764E97569E067FA54D75942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B4E58D9BD7B81B1F393EC84BB9C806 /* JMHelloLib-dummy.m in Sources */,
+				B553C8C993915132D878DE1CDE760B0E /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75AF9AA9FA8964D2C806447279FD44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2B923AAD2FA05AAF5AF6CF0BB394C9 /* Pods-JMHelloLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA127A80F896F6473C42E52CAE09A42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8186CE906369D453697D5819064BD335 /* Pods-JMHelloLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C04D88B8331EED12115C34117ED3E5CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JMHelloLib;
+			target = 81A376734039BF7E1CF1DB45383999AC /* JMHelloLib */;
+			targetProxy = 92DEE7AE4228704C8468009821F1FE16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		54407386EF0791DA6EA3EBFDC3B63DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F94CB25BCC11895F415441A36D51E70 /* Pods-JMHelloLib_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JMHelloLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JMHelloLib_Example/Pods-JMHelloLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JMHelloLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F155B8DAC5B1117CBCBF53F0ED2F90C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61491084B2510063789E4E344E7A8AB0 /* JMHelloLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JMHelloLib/JMHelloLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JMHelloLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JMHelloLib/JMHelloLib.modulemap";
+				PRODUCT_NAME = JMHelloLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9B3DB89111F7FBBDA8D752783210488F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1FE0000638FD606A34ADF1A32B1168 /* Pods-JMHelloLib_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JMHelloLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JMHelloLib_Tests/Pods-JMHelloLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JMHelloLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5B52AB55CD8F404046319152BC4970C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61491084B2510063789E4E344E7A8AB0 /* JMHelloLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JMHelloLib/JMHelloLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JMHelloLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JMHelloLib/JMHelloLib.modulemap";
+				PRODUCT_NAME = JMHelloLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD55E2EF7AB9AB3A23FED79ABEE06C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AF8BF0E8557878A1DF9FE657A20E21 /* Pods-JMHelloLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JMHelloLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JMHelloLib_Tests/Pods-JMHelloLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JMHelloLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFA98F84A04C55659B703D60FC00BA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF774729513F7099CC96EAAD10DA8F39 /* Pods-JMHelloLib_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JMHelloLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JMHelloLib_Example/Pods-JMHelloLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JMHelloLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9656F8B9A448392D4B40B30EDE30DBEA /* Build configuration list for PBXNativeTarget "Pods-JMHelloLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD55E2EF7AB9AB3A23FED79ABEE06C36 /* Debug */,
+				9B3DB89111F7FBBDA8D752783210488F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CF61D6DB45973D760C8A3FDE53AF51 /* Build configuration list for PBXNativeTarget "JMHelloLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B52AB55CD8F404046319152BC4970C /* Debug */,
+				6F155B8DAC5B1117CBCBF53F0ED2F90C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F663529D4F63D24DB1573784B8BF56 /* Build configuration list for PBXNativeTarget "Pods-JMHelloLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA98F84A04C55659B703D60FC00BA56 /* Debug */,
+				54407386EF0791DA6EA3EBFDC3B63DCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

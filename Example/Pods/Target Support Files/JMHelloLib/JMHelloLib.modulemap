@@ -1,0 +1,6 @@
+framework module JMHelloLib {
+  umbrella header "JMHelloLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

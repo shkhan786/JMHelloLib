@@ -1,0 +1,22 @@
+{
+  "name": "JMHelloLib",
+  "version": "0.1.0",
+  "summary": "A short description of JMHelloLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shkhan786/JMHelloLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shkhan786": "haider.khan@alcordtechnologies.com"
+  },
+  "source": {
+    "git": "https://github.com/shkhan786/JMHelloLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JMHelloLib/Classes/**/*"
+}
