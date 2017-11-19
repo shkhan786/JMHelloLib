@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3FF728F8329FF1A7360A4C9DCA510C2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		437D095B1FC1C1A3003965EB /* HelloClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437D095A1FC1C1A3003965EB /* HelloClass.swift */; };
 		4FFB20A26E12595D2813D16262F2C921 /* Pods-JMHelloLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F95EB4FB3E130BAE7503CD13EB0A21 /* Pods-JMHelloLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58B4E58D9BD7B81B1F393EC84BB9C806 /* JMHelloLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4694C021EAC7DC8EC9E3C3B00027748 /* JMHelloLib-dummy.m */; };
 		5D2B923AAD2FA05AAF5AF6CF0BB394C9 /* Pods-JMHelloLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 833241B5D3CCA39A06102271E22A667C /* Pods-JMHelloLib_Tests-dummy.m */; };
 		8186CE906369D453697D5819064BD335 /* Pods-JMHelloLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0F483B44E416BF54020B388322B348 /* Pods-JMHelloLib_Example-dummy.m */; };
 		8F81547D08571AB3C3C2CA647F9771E7 /* Pods-JMHelloLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C8DB12648755EE50B1CDAC709EE353 /* Pods-JMHelloLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B553C8C993915132D878DE1CDE760B0E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E048D74BB21B83B461ACAEE969EED04 /* ReplaceMe.swift */; };
 		BB7B08F45BAEC727285D1ADEB8408218 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CF0211B2A97BEB57827AB3E29EE21649 /* JMHelloLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ECA6F76793CFE3FD3DADB3EA53468D7 /* JMHelloLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D40370E063021E07634807CBD32C1EE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -30,15 +30,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E784D0408562A5AFBE2B3D18921C58E /* Pods-JMHelloLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JMHelloLib_Example.modulemap"; sourceTree = "<group>"; };
+		0E784D0408562A5AFBE2B3D18921C58E /* Pods-JMHelloLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JMHelloLib_Example.modulemap"; sourceTree = "<group>"; };
 		13C28841F9F37041F9B01B857E200797 /* Pods-JMHelloLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMHelloLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1C405007A61CE5FE6C28AF53C9D11185 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FBD350B8B15273D6E5CABCCB64DBC44 /* Pods-JMHelloLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JMHelloLib_Tests.modulemap"; sourceTree = "<group>"; };
-		2025227F5867B709968C69B8A7998DA3 /* JMHelloLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JMHelloLib.framework; path = JMHelloLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBD350B8B15273D6E5CABCCB64DBC44 /* Pods-JMHelloLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JMHelloLib_Tests.modulemap"; sourceTree = "<group>"; };
+		2025227F5867B709968C69B8A7998DA3 /* JMHelloLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JMHelloLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AB24EA372E2C56EBC3CD93E4658CCC /* Pods-JMHelloLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMHelloLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3E048D74BB21B83B461ACAEE969EED04 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JMHelloLib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		437D095A1FC1C1A3003965EB /* HelloClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HelloClass.swift; path = JMHelloLib/Classes/HelloClass.swift; sourceTree = "<group>"; };
 		5A0F483B44E416BF54020B388322B348 /* Pods-JMHelloLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMHelloLib_Example-dummy.m"; sourceTree = "<group>"; };
-		5A1FC7E7487E418DCB2A6894310C1D5E /* Pods_JMHelloLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMHelloLib_Example.framework; path = "Pods-JMHelloLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1FC7E7487E418DCB2A6894310C1D5E /* Pods_JMHelloLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMHelloLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61491084B2510063789E4E344E7A8AB0 /* JMHelloLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMHelloLib.xcconfig; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68C8DB12648755EE50B1CDAC709EE353 /* Pods-JMHelloLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMHelloLib_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -46,8 +46,8 @@
 		833241B5D3CCA39A06102271E22A667C /* Pods-JMHelloLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JMHelloLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		8ECA6F76793CFE3FD3DADB3EA53468D7 /* JMHelloLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMHelloLib-umbrella.h"; sourceTree = "<group>"; };
 		8F94CB25BCC11895F415441A36D51E70 /* Pods-JMHelloLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMHelloLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A234E9269AC6E0A66464E34C8724F943 /* Pods_JMHelloLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMHelloLib_Tests.framework; path = "Pods-JMHelloLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A234E9269AC6E0A66464E34C8724F943 /* Pods_JMHelloLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMHelloLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92BC022D02D8EE0A562C52BFF6EB497 /* Pods-JMHelloLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMHelloLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		ACB4E3DB28714ED8CB67C9C3902FAF67 /* Pods-JMHelloLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMHelloLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AF26ADF9132EC4E1A935E4C12D696FD8 /* Pods-JMHelloLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMHelloLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		B59A93CA7D7B693A2A56658D2C8A4CB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA4CB642D61D8ACE50CF3B79EBC32846 /* Pods-JMHelloLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMHelloLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BF774729513F7099CC96EAAD10DA8F39 /* Pods-JMHelloLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMHelloLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C111F547D8CCB4AC99D44D7FBE96A21A /* JMHelloLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JMHelloLib.modulemap; sourceTree = "<group>"; };
+		C111F547D8CCB4AC99D44D7FBE96A21A /* JMHelloLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JMHelloLib.modulemap; sourceTree = "<group>"; };
 		C5AF8BF0E8557878A1DF9FE657A20E21 /* Pods-JMHelloLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMHelloLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CBC0193316519DDDB6746FFF96FA7B54 /* JMHelloLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMHelloLib-prefix.pch"; sourceTree = "<group>"; };
 		CC9F23615BA390A6A30AF7FA2EC24F7A /* Pods-JMHelloLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMHelloLib_Example-resources.sh"; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 		1232610C3E7CFA15B0AB7703D6880036 /* JMHelloLib */ = {
 			isa = PBXGroup;
 			children = (
-				3E048D74BB21B83B461ACAEE969EED04 /* ReplaceMe.swift */,
 				A9F4D64C73C1531A534C5C4CCDEB639E /* Support Files */,
+				437D095A1FC1C1A3003965EB /* HelloClass.swift */,
 			);
 			name = JMHelloLib;
 			path = ../..;
@@ -296,6 +296,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					81A376734039BF7E1CF1DB45383999AC = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -322,7 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58B4E58D9BD7B81B1F393EC84BB9C806 /* JMHelloLib-dummy.m in Sources */,
-				B553C8C993915132D878DE1CDE760B0E /* ReplaceMe.swift in Sources */,
+				437D095B1FC1C1A3003965EB /* HelloClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61491084B2510063789E4E344E7A8AB0 /* JMHelloLib.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -572,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61491084B2510063789E4E344E7A8AB0 /* JMHelloLib.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
