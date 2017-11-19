@@ -24,7 +24,7 @@ This is the lib created by shkhan for work with multiple projects. And to use.
   s.homepage         = 'https://github.com/shkhan786/JMHelloLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'shkhan786' => 'shkhan786haider@gmail.com.com' }
+  s.author           = { 'shkhan786' => 'shkhan786haider@gmail.com' }
   s.source           = { :git => 'https://github.com/shkhan786/JMHelloLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/shkhan786haider'
 
